@@ -1,0 +1,7 @@
+-f TAGS
+-R
+--python-kinds=-i
+--languages=python
+--exclude=node_modules
+--exclude=dist
+--exclude=vendor
