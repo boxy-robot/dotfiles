@@ -25,7 +25,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Browser</string>
+	<string>Calendar</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -36,11 +36,11 @@
 				<key>argument</key>
 				<integer>0</integer>
 				<key>hotkey</key>
-				<integer>14</integer>
+				<integer>47</integer>
 				<key>hotmod</key>
 				<integer>1179648</integer>
 				<key>hotstring</key>
-				<string>E</string>
+				<string>&gt;</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -60,10 +60,10 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/Applications/Safari.app</string>
+					<string>/Applications/Calendar.app</string>
 				</array>
 				<key>toggle</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
