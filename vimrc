@@ -1,17 +1,18 @@
 " Vundle Stuff
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-Bundle 'gmarik/vundle'
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-" Bundles
-Bundle 'scrooloose/nerdtree'
-Bundle 'chriskempson/base16-vim'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'kien/ctrlp.vim'
-Bundle 'bitc/vim-bad-whitespace'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'plasticboy/vim-markdown'
-Bundle "pangloss/vim-javascript"
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'chriskempson/base16-vim'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'bitc/vim-bad-whitespace'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'pangloss/vim-javascript'
+
+call vundle#end()            " required
 
 
 " I don't know what this stuff is
@@ -94,4 +95,3 @@ let g:Powerline_symbols = 'fancy'
 
 " Ctrl-P
 map <Leader>t :CtrlP<CR>
-

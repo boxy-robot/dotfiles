@@ -6,9 +6,11 @@ iTerm
 ----
 ![iTerm](img/iterm.png?raw=true)
 
+
 vim
 ----
 ![iTerm](img/vim.png?raw=true)
+
 
 tig
 ----
@@ -19,7 +21,8 @@ Installation
 ====
 This will link up your dotfiles.
 
-	curl -L https://raw.github.com/yellottyellott/dotfiles/master/install.sh | sh
+    curl -L https://raw.github.com/yellottyellott/dotfiles/master/install.sh | sh
+
 
 iTerm
 ----
@@ -29,9 +32,15 @@ Tell iTerm to load your preferences from your dotfiles folder.
 
 ![iTerm](img/iterm-install.png?raw=true)
 
+
 vim
 ----
 Install `monaco-powerline.ttf` to install the font.
+Install vundle:
+
+    $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    $ vim +PluginInstall +qall
+
 
 Alfred
 ----
