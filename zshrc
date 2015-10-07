@@ -26,7 +26,7 @@ alias py=ipython
 alias startproject='django-admin.py startproject --template=https://github.com/yellottyellott/django-template/zipball/master --extension=py,rst,md'
 
 alias fab="nocorrect fab"
-alias todo="mate ~/TODO.md"
+alias todo="mate ~/Google\ Drive/TODO.md"
 
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
