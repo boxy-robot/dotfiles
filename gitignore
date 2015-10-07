@@ -40,4 +40,4 @@ Thumbs.db
 .editorconfig
 htmlcov/
 TAGS
-
+node_modules
