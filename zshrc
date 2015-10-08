@@ -39,9 +39,8 @@ ZSH_THEME="erick"
 source $ZSH/oh-my-zsh.sh
 
 export PATH=/usr/local/share/npm/bin:/usr/local/sbin:$PATH
-
 export PGDATA=/usr/local/var/postgres
-
+export BUZZFEED_ROOT="~/Code"
 
 bindkey "^[^[[D" backward-word
 bindkey "^[^[[C" forward-word
