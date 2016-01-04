@@ -60,7 +60,7 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/Applications/Sparrow.app</string>
+					<string>/Applications/Mail.app</string>
 				</array>
 				<key>toggle</key>
 				<true/>

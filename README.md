@@ -26,20 +26,9 @@ This will link up your dotfiles.
 
 iTerm
 ----
-Install the base16 iTerm theme by double clicking `base16-default.dark.256.itermcolors`
-
 Tell iTerm to load your preferences from your dotfiles folder.
 
 ![iTerm](img/iterm-install.png?raw=true)
-
-
-vim
-----
-Install `monaco-powerline.ttf` to install the font.
-Install vundle:
-
-    $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    $ vim +PluginInstall +qall
 
 
 Alfred
