@@ -4,7 +4,7 @@ DOTFILES=$HOME/.dotfiles
 alias zshconfig="vim ~/.zshrc"
 alias code="cd ~/Code"
 alias l="ls -lah"
-alias nuke="find . -name \*.orig -delete -o -name \*.pyc -delete"
+alias nuke="find . -name \*.orig -delete -o -name \*.pyc -delete -o -name .cache -delete"
 alias serve="python -m SimpleHTTPServer"
 
 alias au="find . -name "
@@ -30,6 +30,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=/usr/local/share/npm/bin:/usr/local/sbin:$PATH
 export PGDATA=/usr/local/var/postgres
+export EDITOR=vim
 
 bindkey "^[^[[D" backward-word
 bindkey "^[^[[C" forward-word

@@ -46,6 +46,7 @@ set hidden
 set wildignore=*.swp,*.bak,*.pyc,*.class
 set nobackup
 set noswapfile
+set clipboard=unnamed
 
 " Easy window navigation
 map <C-H> <C-w>h

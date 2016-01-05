@@ -41,3 +41,5 @@ Thumbs.db
 htmlcov/
 TAGS
 node_modules
+*.dat
+/data
