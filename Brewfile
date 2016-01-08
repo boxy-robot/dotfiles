@@ -25,6 +25,7 @@ cask "caffeine"
 cask "google-drive"
 cask "rescuetime"
 cask "mou"
+cask "skype"
 # cask "vagrant"  v1.7.4
 # cask "chefdk"  ):
 
