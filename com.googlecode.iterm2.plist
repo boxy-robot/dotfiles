@@ -248,7 +248,7 @@
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimInactiveSplitPanes</key>
-	<false/>
+	<true/>
 	<key>DimOnlyText</key>
 	<false/>
 	<key>DisableFullscreenTransparency</key>
@@ -322,7 +322,7 @@
 	<key>HideScrollbar</key>
 	<false/>
 	<key>HideTab</key>
-	<true/>
+	<false/>
 	<key>HighlightTabLabels</key>
 	<true/>
 	<key>HotKeyBookmark</key>
@@ -384,15 +384,15 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>125 242 924 485 0 0 1680 1027 </string>
+	<string>125 632 924 485 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1120 26 557 1001 0 0 1680 1027 </string>
+	<string>1707 9 850 1408 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 9 1117 1018 0 0 1680 1027 </string>
+	<string>0 969 570 448 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1707 966 570 451 0 0 2560 1417 </string>
+	<string>-1251 340 570 448 -1680 120 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>-1033 150 577 995 -1680 120 1680 1027 </string>
+	<string>1163 843 570 448 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2574,7 +2574,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>473606736.18348497</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>473606736.18569899</real>
+	<real>473877074.735726</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -2639,7 +2639,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-01-05T13:23:35Z</date>
+	<date>2016-01-08T16:13:13Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -2651,7 +2651,7 @@
 	<key>SmartPlacement</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.40000000596046448</real>
+	<real>0.10000000149011612</real>
 	<key>SwitchTabModifier</key>
 	<integer>4</integer>
 	<key>SwitchWindowModifier</key>

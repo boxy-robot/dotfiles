@@ -29,6 +29,7 @@ ZSH_THEME="erick"
 source $ZSH/oh-my-zsh.sh
 
 export PATH=/usr/local/share/npm/bin:/usr/local/sbin:$PATH
+export GOPATH=/Users/yellottyellott/.go
 export PGDATA=/usr/local/var/postgres
 export EDITOR=vim
 

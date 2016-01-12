@@ -45,3 +45,7 @@ ln -sf ~/.dotfiles/gvimrc ~/.gvimrc
 # CTags
 echo "\033[0;32mInstalling ctags config...\033[0m"
 ln -sf ~/.dotfiles/ctags ~/.ctags
+
+# Editorconfig
+echo "\033[0;32mInstalling editorconfig...\033[0m"
+ln -sf ~/.dotfiles/editorconfig ~/.editorconfig
