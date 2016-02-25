@@ -49,3 +49,17 @@ ln -sf ~/.dotfiles/ctags ~/.ctags
 # Editorconfig
 echo "\033[0;32mInstalling editorconfig...\033[0m"
 ln -sf ~/.dotfiles/editorconfig ~/.editorconfig
+
+# AWS
+mkdir -p ~/.aws
+ln -sf ~/.dotfiles/awsconfig ~/.aws/config
+if [ ! -e ~/.aws/credentials ]
+then
+    aws configure
+fi
+
+# Python
+pip install -r ~/.dotfiles/packages.pip
+
+# Bin
+ln -sf ~/.dotfiles/bin/proxy /usr/local/bin/proxy

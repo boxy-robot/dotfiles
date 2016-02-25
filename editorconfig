@@ -11,6 +11,9 @@ insert_final_newline = true
 [*.{js,html}]
 indent_size = 2
 
+[*.yml]
+indent_size = 2
+
 [Makefile]
 indent_style = tab
 

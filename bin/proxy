@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Usage: soxprox -p 8888 host
+
+enable_proxy()
+{
+    sudo networksetup -setsocksfirewallproxy Wi-Fi 127.0.0.1 $1
+    sudo networksetup -setsocksfirewallproxystate Wi-Fi on
+    echo "Enabled SOCKS proxy using port: $1 jump host: $2."
+    ssh -ND $1 $2
+}
+
+disable_proxy()
+{
+    sudo networksetup -setsocksfirewallproxystate Wi-Fi off
+    echo "SOCKS proxy disabled."
+}
+
+OPTIND=1         # Reset in case getopts has been used previously in the shell.
+port=1234
+while getopts "p:" opt; do
+    case "$opt" in
+    p)  port=$OPTARG
+        ;;
+    esac
+done
+
+shift $((OPTIND-1))
+
+[ "$1" = "--" ] && shift
+
+host=$1
+
+if [ -z "$host" ]
+  then
+    echo "Jump host required."
+    exit 1
+fi
+
+trap disable_proxy INT
+enable_proxy $port $host

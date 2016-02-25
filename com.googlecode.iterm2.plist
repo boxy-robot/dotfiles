@@ -388,7 +388,7 @@
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>1707 9 850 1408 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 969 570 448 0 0 2560 1417 </string>
+	<string>0 9 1704 1408 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>-1251 340 570 448 -1680 120 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -958,7 +958,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>10000</integer>
+			<integer>0</integer>
 			<key>Scrollback With Status Bar</key>
 			<false/>
 			<key>Scrollback in Alternate Screen</key>
@@ -1102,7 +1102,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -2574,7 +2574,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>473606736.18348497</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>473877074.735726</real>
+	<real>474305929.028404</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -2639,7 +2639,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-01-08T16:13:13Z</date>
+	<date>2016-01-13T16:20:34Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>

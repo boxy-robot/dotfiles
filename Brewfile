@@ -2,11 +2,11 @@ brew "git"
 brew "python"
 brew "ruby"
 brew "vim"
-brew "ansible"
 brew "ag"
 brew "ctags"
 brew "gitup"
 brew "keybase"
+brew "awscli"
 
 tap "caskroom/cask"
 cask_args appdir: '/Applications'
