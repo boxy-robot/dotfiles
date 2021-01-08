@@ -35,3 +35,8 @@ then
     done
 fi
 ln -sf "$CODE_DIR/prezto" "$HOME/.zprezto"
+
+echo "installing python packages..."
+pip3 install -r "$DOTFILES_DIR/requirements.txt"
+
+echo "complete!"
