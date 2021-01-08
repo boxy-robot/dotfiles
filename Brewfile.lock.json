@@ -172,6 +172,18 @@
         "options": {
           "full_name": "spotify"
         }
+      },
+      "docker": {
+        "version": "3.0.4,51218",
+        "options": {
+          "full_name": "docker"
+        }
+      },
+      "google-cloud-sdk": {
+        "version": "latest",
+        "options": {
+          "full_name": "google-cloud-sdk"
+        }
       }
     }
   },
